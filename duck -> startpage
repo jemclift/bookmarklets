@@ -1,0 +1,1 @@
+javascript:(function(){if (window.location.href.includes(%22https://duckduckgo.com/%22)) {window.open('https://startpage.com/do/search?'+window.location.href.match('(?<=[&|?])q.+?(?=&)'),'_self')} else {window.open('https://startpage.com/','_self')}})();
